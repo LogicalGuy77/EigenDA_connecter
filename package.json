@@ -6,7 +6,7 @@
   "scripts": {
     "test_store": "npx ts-node ./src/store_blob.ts",
     "test_retrieve": "npx ts-node ./src/retrieve_blob.ts",
-    "dev": "npx ts-node ./src/index.ts"
+    "dev": "npx ts-node ./index.ts"
   },
   "repository": {
     "type": "git",

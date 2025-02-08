@@ -1,8 +1,8 @@
 //@ts-nocheck
 import express from "express";
 import cors from "cors";
-import { storeBlob } from "./store_blob";
-import { retrieveBlob } from "./retrieve_blob";
+import { storeBlob } from "./src/store_blob";
+import { retrieveBlob } from "./src/retrieve_blob";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
