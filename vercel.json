@@ -5,7 +5,7 @@
       "src": "./index.ts",
       "use": "@vercel/node",
       "config": {
-        "maxDuration": 200
+        "maxDuration": 60
       }
     }
   ],
